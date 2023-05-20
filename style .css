@@ -3,23 +3,24 @@
     margin: 0;
 }
 .navbar{
-    background-color: rgb(9, 9, 9);
+    background-color: rgb(8, 159, 139);
 }
 .navbar-brand{
-    color: rgb(95, 5, 5) ;
+    color: rgb(249, 243, 243);
     font-weight: 30px;
 }
 .navbar-brand:hover{
-    color:  rgba(7, 110, 118, 0.977);;
+    color:  rgba(0, 1, 1, 0.977);;
 
 }
 .btn {
-    background-color:rgb(106, 8, 8); 
-    color:rgba(7, 110, 118, 0.977) ; 
-    border: 1px solid rgba(7, 110, 118, 0.977) ;
+    background-color:rgb(12, 12, 12); 
+    color:rgba(255, 255, 255, 0.977) ; 
+    border: 1px solid rgba(253, 255, 255, 0.977) ;
 }
 .btn:hover{
-color: rgba(7, 110, 118, 0.977); 
+color: rgba(251, 255, 255, 0.977); 
+background-color: rgb(255, 253, 253) !important;
 }
 .form-control{
     padding-right: 150px;
@@ -33,19 +34,19 @@ color: rgba(7, 110, 118, 0.977);
 
 }
 .nav-link{
-    color: rgba(7, 110, 118, 0.977);
+    color: rgba(9, 9, 9, 0.977);
 }
 .nav-link:hover{
-    color: rgb(101, 25, 25);
+    color: rgb(2, 2, 2); 
 }
 .dropdown-menu{
-    background-color: rgb(95, 5, 5);
+    background-color:rgba(0, 0, 0, 0.804); 
 }
 .dropdown-item{
-    color:rgba(7, 110, 118, 0.977) ;
+    color:rgba(249, 251, 251, 0.977) ;
 }
 .img-fluid{
     background-size: cover;
-    /* width: 100%; */
+    width: 100%;
 }
 /* samreen section end------- */
