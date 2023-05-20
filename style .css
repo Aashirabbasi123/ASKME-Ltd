@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(9, 9, 9);
+}
+.navbar-brand{
+    color: rgb(95, 5, 5) ;
+    font-weight: 30px;
+}
+.navbar-brand:hover{
+    color:  rgba(7, 110, 118, 0.977);;
+
+}
+.btn {
+    background-color:rgb(106, 8, 8); 
+    color:rgba(7, 110, 118, 0.977) ; 
+    border: 1px solid rgba(7, 110, 118, 0.977) ;
+}
+.btn:hover{
+color: rgba(7, 110, 118, 0.977); 
+}
+.form-control{
+    padding-right: 150px;
+    background-color: transparent;
+}
+
+.d-flex{
+    padding-right: 180px;
+    height: 50px;
+    background-color: transparent;
+
+}
+.nav-link{
+    color: rgba(7, 110, 118, 0.977);
+}
+.nav-link:hover{
+    color: rgb(101, 25, 25);
+}
+.dropdown-menu{
+    background-color: rgb(95, 5, 5);
+}
+.dropdown-item{
+    color:rgba(7, 110, 118, 0.977) ;
+}
+.img-fluid{
+    background-size: cover;
+    /* width: 100%; */
+}
+/* samreen section end------- */
