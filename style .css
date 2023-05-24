@@ -73,5 +73,36 @@ background: linear-gradient(45deg,#15251d98,#30833b84,#0a0a0a8f);
     background-size: cover;
     width: 100%;
 }
-/* samreen section end------- */
-    
+/* samreen section end card.....*/
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(#4ba9e9 50%,#fff 50%,#fff 100%);
+        min-height: 100vh;
+    }
+    .card{
+        position: relative;
+        width: 300px;
+        height: 380px;
+        background: #0000;
+        display: flex;
+        box-shadow: 0 15px 45px rgb()0,0,0,0.1;
+        overflow: hidden;
+        transition: 0.5s ease-in-out;
+    }
+    .card:hover{
+        width: 600px;
+    }
+    .card .imagBx{
+        position: relative;
+        min-height: 300px;
+        height: 100%;
+        background: #fff;
+    }
