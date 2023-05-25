@@ -226,37 +226,37 @@ background: linear-gradient(45deg,#15251d98,#30833b84,#0a0a0a8f);
     }
     /* add css for vedio........ */
 
-    /* .tv {
+    .tv {
         position: relative;
-        width: 600px;
-        height: 400px;
+        width: 100%;
+        height: 500px;
         overflow: hidden;
     }
     
     .tv::before {
         content: "";
         position: absolute;
-        top: 10%;
-        left: 5%;
-        width: 90%;
+        /* top: 10%; */
+        /* left: 5%; */
+        width: 100%;
         height: 80%;
-        border: 10px solid black;
+        /* border: 10px solid black; */
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
-        background: black;
+        /* background: black; */
     }
     
     .tv video {
         position: absolute;
-        top: 12%;
-        left: 7%;
-        width: 86%;
-        height: 76%;
+        /* top: 1%; */
+        /* left: 7%; */
+        width: 100%;
+        height: 100%;
         object-fit: cover;
     }
- */
+
 /* second vedio css */
-.background-video {
+/* .background-video {
     position: fixed;
     top: 0;
     left: 0;
@@ -270,5 +270,6 @@ background: linear-gradient(45deg,#15251d98,#30833b84,#0a0a0a8f);
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-top: 20px;
+    padding-top: 20px;
   }
-  
