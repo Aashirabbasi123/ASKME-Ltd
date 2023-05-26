@@ -4,6 +4,7 @@
     
 }
 .navbar{
+    width: 100%;
     /* background-color: rgb(8, 159, 139); */
     /* background-color: rgb(4, 198, 30);s */
     /* background: linear-gradient(45deg,#3cb9fc,#b537f2,#8a2be2,#120012); */
@@ -27,26 +28,6 @@
 }
 .navbar-brand:hover{
     color:  rgba(0, 1, 1, 0.977);;
-
-}
-.btn {
-    background-color:rgb(12, 12, 12); 
-    color:rgba(255, 255, 255, 0.977) ; 
-    border: 1px solid rgba(253, 255, 255, 0.977) ;
-}
-.btn:hover{
-color: rgba(251, 255, 255, 0.977); 
-background-color: rgb(255, 253, 253) !important;
-}
-.form-control{
-    padding-right: 150px;
-    background-color: transparent;
-}
-
-.d-flex{
-    padding-right: 180px;
-    height: 50px;
-    background-color: transparent;
 
 }
 .nav-link{
@@ -114,7 +95,7 @@ background: linear-gradient(45deg,#15251d98,#30833b84,#0a0a0a8f);
 
 .cardbody{
 	font-size: 1.7rem;
-	font-family: 'Merriweather Sans', sans-serif;
+	/* font-family: 'Merriweather Sans', sans-serif; */
 	background: #2c3e50;
 	color: #ececec;
 	padding: 4rem;
@@ -186,6 +167,5 @@ h2{
 .navbar{
     height: 100px;
     position: fixed;
-    
     /* position: absolute; */
 }
