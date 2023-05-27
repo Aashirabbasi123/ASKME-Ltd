@@ -22,7 +22,7 @@
     
 }
 .navbar-brand{
-    margin-left: 300px;
+    margin-left: 200px;
     color: rgb(249, 243, 243);
     font-weight: 30px;
 }
@@ -168,4 +168,13 @@ h2{
     height: 100px;
     position: fixed;
     /* position: absolute; */
+}
+.logo{
+    /* background-color: #0a0a0a; */
+    height: 100px;
+    width: 110px;
+    margin-left: 5px;
+    background-image: url(./image/logo\ 2.png);
+    background-size: cover;
+    position: fixed;
 }

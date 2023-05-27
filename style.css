@@ -1,5 +1,15 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 .mainfile{
     background-color: #0a0a0a;
     height: 500px;
-    width: 400px;
+    width: 480px;
+}
+.info{
+    margin-left: 500px;
+    background-color: #c01010;
+    height: 1000px;
+    width:840px;
 }
