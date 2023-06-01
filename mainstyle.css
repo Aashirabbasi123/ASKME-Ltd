@@ -41,7 +41,7 @@
 }
 .nav-link:hover{
  /* background-color: rgb(255, 253, 253) !important; */
-    color: rgb(0, 3, 189); 
+    color: rgb(0, 0, 0); 
 }
 .dropdown-menu{
     background-color:rgba(0, 0, 0, 0.804); 
@@ -179,8 +179,19 @@ h2{
     /* background-color: #0a0a0a; */
     height: 100px;
     width: 110px;
-    margin-left: 5px;
+    margin-left: 5px; 
     background-image: url(./image/logos/logo\ 2.png);
     background-size: cover;
     position: fixed;
 }
+
+
+
+
+
+
+
+
+
+
+
