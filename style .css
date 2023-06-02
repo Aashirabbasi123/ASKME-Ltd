@@ -91,7 +91,7 @@ background: linear-gradient(45deg,#15251d98,#30833b84,#0a0a0a8f);
         left: 50%;
         transform: translate(-50%, -50%);
         width: 80%;
-        padding-bottom: 80%; /* Adjust this value to control the LCD shape aspect ratio */
+        padding-bottom: 80%; 
         border: 3px solid #000;
         background: #000;
       }
