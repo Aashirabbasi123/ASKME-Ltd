@@ -11,6 +11,8 @@
   <!-- Bootstrap CSS v5.2.1 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
 
     <style>
         /* ------------------------------------navbar css---------------------------------------------- */
@@ -33,30 +35,32 @@
             
         }
         .navbar-brand{
-            color: rgb(11, 207, 200);
+            color: rgb(9, 161, 156);
             margin-top: 20px;
-            
+          font-weight: bold;  
+          font-size: 30px;
 
         }
         .nav-link{
-            color: white;
+            color: rgb(201, 32, 216);
+            font-size: 20px;
         }
         .nav-link:hover{
-            color: aqua;
+            color: rgb(10, 118, 118);
         }
         .nav-item{
-            margin-left: 50px;
+            margin-left: 40px;
             margin-top: 20px;
         }
         .dropdown-menu{
-            background-color: rgba(0, 0, 0, 0.692);
+            background-color: rgba(0, 0, 0, 0.445);
         }
         .dropdown-item{
             color: white;
 
         }
         .dropdown-item:hover{
-            background-color: blueviolet;
+            background-color: rgb(38, 219, 232);
         }
         .d-flex{
             margin-top: 20px;
@@ -69,7 +73,7 @@
             display: flex;
             width: 100%;
             height: 500px;
-            background-color:rgb(0, 0, 0);
+            background-color:rgb(251, 248, 252);
             justify-content:space-around;
         justify-content: space-between;
         padding: 15px;
@@ -85,16 +89,16 @@
        background-color: beige;
        }
        .btn{
-        background-color: rgb(37, 146, 228);
+        background-color: rgb(46, 237, 231);
         color: #000;
         border: 1px solid white;
         margin-bottom: 5px;
        }
         .btn:hover{
-        background-color: blueviolet;
+        background-color: rgb(151, 82, 216);
        }
        .form-control {
-        border: 2px solid aqua;
+        border: 2px solid rgb(0, 255, 255);
        }
        .card-img-top{
         background-color: #000;
@@ -107,7 +111,7 @@
         display: flex;
         height: 500px;
         width: 100%;
-        background-color: black;
+        background-color: rgb(255, 255, 255);
         background-image: url(./image/wallpaperflare.com_wallpaper\ \(6\).jpg);
 
        }
@@ -117,13 +121,14 @@
         height: 400px;
         margin-top: 40px;
        border: 1px solid gray;
-       background-color: rgb(16, 16, 15);
+       background-color: rgb(255, 255, 255);
        margin-left: 20px;
+      
        
        }
        .card2-img-top{
         height: 250px;
-        background-color: #000;
+        background-color: #000000;
         width: 100%;
 
         
@@ -132,16 +137,17 @@
        
        .card-body2{
         margin-left: 10px;
-        color: white;
+        color: rgb(10, 9, 9);
        }
        .container2 h2{
         font-weight: bold;
-        color: white;
+        color: rgb(247, 255, 254);
         margin-top: 150px;
         margin-left: 15px;
        }
        .link2{
         margin-bottom: 5px;
+        color: #2c79d6;
        }
        /* ----------------------------------mac cards css end---------------------------------------- */
 /* css --------------------------------------of ipad cards-------------------------------------------- */
@@ -152,7 +158,7 @@
       transition: transform 0.3s ease-in-out;
       margin-top:100px;
       height: 350px;
-      border: 2px solid white;
+      border: 1px solid rgb(0, 0, 0);
       border-radius: 5px;
     }
     
@@ -164,6 +170,8 @@
       transition: transform 0.3s ease-in-out;
       height: 300px;
       width: 100%;
+      margin-top: 20px;
+    
     }
     
     .card3:hover .card3-img-top1 {
@@ -183,7 +191,7 @@
       /* margin-bottom: 20px; */
       width: 100%;
       height: 200px;
-      border: 1px solid purple;
+      border: 1px solid rgb(154, 73, 245);
       color: white;
       margin-top: 45px;
       border-radius: 10px;
@@ -196,12 +204,120 @@
     .container3{
         width: 100%;
         min-height: 500px;
-        background-color: rgb(0, 0, 0);
+        background-color: rgba(253, 253, 253, 0.735);
 
     }
-  
-  
+   
+  /* --------------------------------------footer css------------------------------------------------ */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #52ded2;
+	height: 2px;
+	box-sizing: border-box;
+	width: 60px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
 
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+.tv {
+        position: relative;
+        width: 100%;
+        height: 650px;
+        /* margin-top: 50px; */
+        overflow: hidden;
+    }
+    .tv video {
+        /* position: absolute; */
+        /* top: 1%; */
+        /* left: 7%; */
+        width: 100%;
+        height: 650px;
+        object-fit: cover;
+    }
+/* ----------------------------------------footer end------------------------------------------- */
     </style>
 </head>
 
@@ -250,10 +366,15 @@
       </nav>
   </header>
   <!-- ------------------------------------------nav end-------------------------------------- -->
-  <div>
+  <!-- <div>
     <img src="./image/iphone pictures/wallpaperflare.com_wallpaper (4).jpg" class="img-fluid" alt="..." >
     
-  </div>
+  </div> -->
+  <div class="tv">
+    <video autoplay loop muted>
+        <source src="./image/iphone pictures/History of the iPhone.mp4" type="video/mp4">
+    </video>
+</div>
   <!-- image ------------------------------------- -->
   <!-- ==---------------------------------------iphone cards start----------------------------------------- -->
   <main>
@@ -309,6 +430,8 @@
               <h5 class="card-title">MacBook Pro 13”</h5>
               <p class="card-text">From $1299</p>
               <a href="#" class="link2">Learn more</a>
+          
+
 
             </div>
           </div>
@@ -372,6 +495,54 @@
           </div>
         </div>
       </div>
+      <!-- ----------------------------footer------------------------------------------- -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col">
+              <h4>company</h4>
+              <ul>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">our services</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">affiliate program</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>get help</h4>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">returns</a></li>
+                <li><a href="#">order status</a></li>
+                <li><a href="#">payment options</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>online shop</h4>
+              <ul>
+                <li><a href="#">watch</a></li>
+                <li><a href="#">bag</a></li>
+                <li><a href="#">shoes</a></li>
+                <li><a href="#">dress</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>follow us</h4>
+              <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+     </footer>
+   
+   </body>
+   </html>
+   
     
   </footer>
   <!-- Bootstrap JavaScript Libraries -->

@@ -5,24 +5,10 @@
 }
 .navbar{
     width: 100%;
-    /* background-color: rgb(8, 159, 139); */
-    /* background-color: rgb(4, 198, 30);s */
-    /* background: linear-gradient(45deg,#3cb9fc,#b537f2,#8a2be2,#120012); */
-    /* background: linear-gradient(47deg,#1b1145,#412279,#100b1f,#8799bc,#bb96bb); */
-    /* background: linear-gradient(45deg,#053c5e,#050e1e,#031e4b,#239bc3,#0d3a91); */
-    /* background: linear-gradient(45deg,#096eba,#06a99d,#2c63ac,#919fd6) */
-    /* background: linear-gradient(45deg,#aa9beb,#5c5db4,#26105d,#4754a1,#1002da); */
-    /* background: linear-gradient(45deg,#415197,#47bcc7,#061136,#457fab,#0e2256); */
-    /* background: linear-gradient(45deg,#15251d,#30833b,#0a0a0a); */
-    background-color: #2c3e50;
-    opacity: 0.5;
-    /* color: #2c3e50; */
-    /* background: linear-gradient(45deg,#e07ef0,#1892a2,#386ac6); */
-    /* background: linear-gradient(45deg,#082837,#c8f1eb,#051a26,#4f9693,#447ca4); */
-    /* background: linear-gradient(45deg,#201f41,#422d53,#912e54,#d1788f,#dd7c86,#201f41,#422d53); */
-    /* background: linear-gradient(45deg,#111a21,#a9081c,#716b6d); */
-    /* background: linear-gradient(45deg,#446063,#ccd4dd,#141e1d); */
+    background-color: #ffbcc3;
+    /* opacity: 0.5; */
     z-index: 1;
+    /* position: fixed; */
     
 }
 .navbar-brand{
@@ -35,13 +21,14 @@
 
 }
 .nav-link{
-    color: rgba(255, 255, 255, 0.977);
+    color: rgba(0, 0, 0, 0.977);
     /* opacity: 10; */
     margin-left: 35px;
 }
 .nav-link:hover{
  /* background-color: rgb(255, 253, 253) !important; */
-    color: rgb(0, 0, 0); 
+    /* color: rgb(0, 0, 0);  */
+    color:rgba(255, 94, 215, 0.977);
 }
 .dropdown-menu{
     background-color:rgba(0, 0, 0, 0.804); 
@@ -66,38 +53,19 @@ background: linear-gradient(45deg,#15251d98,#30833b84,#0a0a0a8f);
         position: relative;
         width: 100%;
         height: 650px;
-        
+        /* margin-top: 50px; */
         overflow: hidden;
     }
-    
-    /* .tv::before {
-        content: "";
-        position: absolute;
-        top: 10%;
-        left: 5%;
-        width: 100%;
-        height: 100%;
-        border: 10px solid black;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        background: black;
-    } */
     
     .tv video {
         /* position: absolute; */
         /* top: 1%; */
         /* left: 7%; */
         width: 100%;
-        height: 100%;
+        height: 900px;
         object-fit: cover;
     }
    @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
-
-/* *{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-} */
 
 .cardbody{
 	font-size: 1.7rem;
