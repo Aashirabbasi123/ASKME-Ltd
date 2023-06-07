@@ -46,16 +46,19 @@ background: linear-gradient(45deg,#15251d98,#30833b84,#0a0a0a8f);
 .dropdown-item:hover{
 background-color: #151313ba !important;
 }
-@media screen {
+@media (max-width: 991.98px) {
+    .navbar-nav {
+      flex-direction: column;
+    }
     .nav-link {
-        /* background-color: pluma; */
-        text-align: center;
-        padding: 20px;
+      padding: 0.5rem 1rem;
     }
-    .tv{
-        background-size: cover;
+    .dropdown-menu {
+      position: static;
+      float: none;
     }
-}
+  }
+  
 
 /* ==================================================navbar end=================================================== */
 
@@ -92,76 +95,6 @@ background-color: #151313ba !important;
     position: fixed;
 }
 /* =======================================================logo end===================================================== */
-
-/*=============================================== card ===========================================================*/
-
-/* .card {
-  width: 300px;
-  margin-top: 20px;
-  height: 450px;
-  display: flex;
-  margin-left: 50px;
-  border-radius: 20px;
-
-} */
-
-/* .card:hover {
-  transform: scale(1.1);
-} */
-/* .cardcolor{
-    background-color: rgb(247, 159, 247);
-    position: absolute;
-    width: 100%;
-    display: flex;
-    height: 900px;
-} */
-/* .card-img-top {
-  border-radius: 20px;
-  object-fit: cover;
-
-} */
-/* .hover-text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-
-.card:hover .hover-text {
-    opacity: 1;
-}
-
-.para1 {
-    margin-top: 60px;
-    margin-left: 10px;
-    font-size: 16px;
-    color: #fff;
-}
-.head1{ 
-    margin-top: 60px;
-    margin-left: 10px;
-    color: white;
-    text-align: center;
-}
-
-.btn{
-    background-color: rgb(255, 179, 255);
-    height: 40px;
-    text-align: center;
-    margin-left: 90px;
-    margin-top: 20px;
-} */
-/* .btn:hover{
-    background-color: palevioletred;
-} */
-/*=============================================== card end ===========================================================*/
 
 /* --------------------------===========================-footer --------------------------------------------------------*/
 .footer{
@@ -243,19 +176,11 @@ background-color: #151313ba !important;
 
 .image{
     background-color: #24262b;
-    /* background-image: url(../image/apple_iphone_12.jpg); */
-    /* background-size: cover; */
     object-fit: cover;
     height: 80px;
     width: 80px;
     border-radius: 50px;
     margin-top: 20px;
-    /* margin-left: 50px; */
-}
-.col-lg-4{
-    /* display: flex; */
-    margin-left: 80px;
-    text-align: center;
 }
 
 /* =========================-=======---==-=-------=====row div end================================================== */
@@ -265,7 +190,6 @@ background-color: #151313ba !important;
     width: 100%;
     height: 300px;
  }
-
  /* =========================-=======---==-=-------=====location end ========================-=======---==-=-------===== */
 
 
