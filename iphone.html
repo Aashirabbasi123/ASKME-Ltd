@@ -75,6 +75,41 @@
             margin-left: 150px;
 
         }
+      
+      .social-links1{
+        height: 50px;
+        width: 80px;
+        color: #3ce1e1;
+      }
+    
+    .social-links1 .fab{
+      margin-left: 40px;
+      color: #000;
+      height: 40px;
+      size: 40px;
+      margin-top: 10px;
+      width: 50px;
+      font-size: 40px;
+    }
+    .social-links1 .fab:hover{
+      color: aqua;
+
+    }
+    .social-links2 .fa{
+      color: #000;
+      font-size: 30px;
+      margin-right: 10px;
+    }
+    .social-links2 .fa:hover{
+      color: aqua;
+    }
+    .social-links2 span{
+      color: #2a56db;
+      text-decoration: none;
+      margin-right:100px;
+      font-size: 20px;
+      font-weight: bold;
+    }
         /* ---------------------------------nav css end------------------------------------------------------- */
        /*------------------------------------- card css of iphone------------------------------------------- */
         main{
@@ -159,7 +194,7 @@
         color: #2c79d6;
        }
        /* ----------------------------------mac cards css end---------------------------------------- */
-/* css --------------------------------------of ipad cards-------------------------------------------- */
+/* css --------------------------------------iphone hover card-------------------------------------------- */
        .card3 {
       width: 18rem;
       position: relative;
@@ -200,20 +235,20 @@
       /* margin-bottom: 20px; */
       width: 100%;
       height: 200px;
-      border: 1px solid rgb(154, 73, 245);
-      color: white;
+      border: 1px solid rgb(0, 0, 0);
+      color: rgb(0, 0, 0);
       margin-top: 45px;
       border-radius: 10px;
     }
     
     .card3:hover .card3-details {
       opacity: 1;
-      background-color: #3ce1e1;
+      background-color: #79cde1;
     }
     .container3{
         width: 100%;
         min-height: 500px;
-        background-color: rgba(253, 253, 253, 0.735);
+        background-color: rgba(253, 253, 253, 0.986);
 
     }
    
@@ -311,14 +346,14 @@ ul{
     width: 100%;
 }
 }
-.tv {
+.container-fluid1 {
         position:relative ;
         width: 100%;
         height: 650px;
         /* margin-top: 50px; */
         overflow: hidden;
     }
-    .tv video {
+    .container-fluid1 video {
         /* position: absolute; */
         /* top: 1%; */
         /* left: 7%; */
@@ -326,20 +361,24 @@ ul{
         height: 650px;
         object-fit: cover;
     }
-    .container{
+    .container-sm{
       align-items: center;
       
     }
-    .container h1{
-      margin-left: 350px;
+    .containerf{
+      margin-top: 30px;
+    }
+    .containerf h1{
+      margin-left: 30px;
       margin-top: 50px;
     }
-    .container .underline{
+    .containerf .underline{
       height: 40px;
       width: 50px;
       color: #3ce1e1;
     }
-    .container4{
+    /*-------------------------------- phone compare portion here----------------------------- */
+    .container-fluid2{
       display: flex;
       height: 300px;
       width: 100%;
@@ -367,40 +406,6 @@ ul{
       .text{
         margin-top: 120px;
       }
-      .social-links1{
-        height: 50px;
-        width: 80px;
-        color: #3ce1e1;
-      }
-    
-    .social-links1 .fab{
-      margin-left: 40px;
-      color: #000;
-      height: 40px;
-      size: 40px;
-      margin-top: 10px;
-      width: 50px;
-      font-size: 40px;
-    }
-    .social-links1 .fab:hover{
-      color: aqua;
-
-    }
-    .social-links2 .fa{
-      color: #000;
-      font-size: 30px;
-      margin-right: 10px;
-    }
-    .social-links2 .fa:hover{
-      color: aqua;
-    }
-    .social-links2 span{
-      color: #2a56db;
-      text-decoration: none;
-      margin-right:100px;
-      font-size: 20px;
-      font-weight: bold;
-    }
 /* ----------------------------------------footer end------------------------------------------- */
     </style>
 </head>
@@ -428,10 +433,10 @@ ul{
                   iphones
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">iPhone-14</a></li>
-                  <li><a class="dropdown-item" href="#">iphone-14 pro</a></li>
-                  <li><a class="dropdown-item" href="#">iphone-SE</a></li>
+                  <li><a class="dropdown-item" href="iphone 14.html">iPhone-14</a></li>
                   <li><a class="dropdown-item" href="#">iphone-13</a></li>
+                  <li><a class="dropdown-item" href="#">iphone-SE</a></li>
+                  <li><a class="dropdown-item" href="#">iphone-12</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -447,53 +452,53 @@ ul{
       </nav>
   </header>
   
-  <div class="tv">
+  <div class="container-fluid1">
     <video autoplay loop muted>
-        <source src="./image/iphone pictures/History of the iPhone.mp4" type="video/mp4">
-    </video>
+      <source src="./image/iphone pictures/History of the iPhone.mp4" type="video/mp4">
+  </video>
+  </div>
 </div>
   <!-- image ------------------------------------- -->
   <!-- ==---------------------------------------iphone cards start----------------------------------------- -->
   <!-- ----------iphone info------------------------------- -->
-  <div class="container">
-    <h1>What is an iPhone?</h1>
+
+  <div class="container-sm"><h1>What is an iPhone?</h1>
     <div class="underline"></div>
 
    <p>The iPhone is a smartphone made by Apple that combines a computer, iPod, digital camera and cellular phone into one device with a touchscreen interface. The iPhone runs the iOS operating system, and in 2021 when the iPhone 13 was introduced, it offered up to 1 TB of storage and a 12-megapixel camera.
 
     The original iPhone was announced on Jan. 9, 2007, at the Macworld convention by Apple co-founder Steve Jobs. While it was not considered the first smartphone, the iPhone has helped drive the global shift to mobile computing among both consumers and businesses. Its primary rival has been Google Android-based devices from companies such as Samsung, also introduced in 2007.</p>
-    
-  </div>
+    </div>
   <main>
     <div class="card" style="width: 18rem;">
         <img src="./image/iphone pictures/PRRO2.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">iphone-14Pro</h5>
-          <p class="card-text">From $999</p>
+          <h5 class="card-title">iphone-14</h5>
+          <p class="card-text">From $799**</p>
           <a href="#" class="btn btn-primary">Learn more></a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
         <img src="./image/iphone pictures/darkbomber.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">iphone-14</h5>
-          <p class="card-text">From $799*</p>
+          <h5 class="card-title">iphone-13</h5>
+          <p class="card-text">From $599**</p>
           <a href="#" class="btn btn-primary">Learn more></a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
         <img src="./image/iphone pictures/iPhone-14-Transparent-Image.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">iphone-13</h5>
-          <p class="card-text">From $599*</p>
+          <h5 class="card-title">iphone-SE</h5>
+          <p class="card-text">From $429</p>
           <a href="#" class="btn btn-primary">Learn more></a>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
         <img src="./image/iphone pictures/PRO3.png" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">iphone-SE</h5>
-          <p class="card-text">From $429</p>
+          <h5 class="card-title">iphone-12</h5>
+          <p class="card-text">From $599</p>
           <a href="#" class="btn btn-primary">Learn more></a>
         </div>
       </div>
@@ -523,7 +528,7 @@ ul{
               </p>
             </div>
           <!---------------------------compare items here --------------------- -->
-          <div class="container4">
+          <div class="container-fluid2">
           <img src="./image/compare_iphone_13_pro__emfqqeaysca6_large_2x.jpg" class="rounded float-start" alt="...">
                  <img src="./image/compare_iphone_13_.jpg" class="rounded float-end" alt="...">
                 <img src="./image/compare_iphone_12__fc.jpg" class="rounded float-end" alt="...">
@@ -547,12 +552,8 @@ ul{
           <img src="./image/icon_13_pro_camera__gtlhu06jtw2u_large_2x.png" class="rounded2 float-end" alt="...">
         <div class="text">
           <p>Advanced dual-camera system</p>
-          <h6> 12MP Main Ultra Wide
-
-            Photonic Engine for incredible detail and color
-            Autofocus on TrueDepth
-            front camera
-            </h6>
+           12MP Main Ultra Wide Photonic  
+            
           <img src="./image/icon_a15__d4hn2f34szo2_large_2x (1).png" class="rounded2 float-end" alt="...">
           <div class="text">
             <p>A15 Bionic chip
@@ -572,7 +573,7 @@ ul{
          <hr>
         
         </div>
-            <!-- -------------------------------my iphone13pro end------------------------------------- -->
+            <!-- -------------------------------my iphone14 end------------------------------------- -->
  
                 <!--=------------------- my iphone13 sec start----------------------------------------------- -->
 
@@ -611,7 +612,7 @@ ul{
         </div>
     <!--=------------------- my iphone13 sec end----------------------------------------------- -->
         
-<!--=====------------------ my ihone se sec start ------------------------------------------->
+<!--=====------------------ my iphone se sec start ------------------------------------------->
               
               </div>
               <div class="col">
@@ -687,7 +688,7 @@ ul{
               </div>
             </div>
 
-            <div class="container">
+            <div class="containerf">
               <h1>Compare all iPhone models</h1>
               <div class="underline"></div>
           
@@ -709,12 +710,12 @@ ul{
         <div class="row">
           <div class="col-md-4">
             <div class="card3">
-              <img src="./image/iphone pictures/PngItem_23.png" class="card3-img-top1" alt="Card Image">
+              <img src="./image/iphone pictures/80561fbd-2db3-4b0e-9213-9d4ab024b865.jpg" class="card3-img-top1" alt="Card Image">
               <div class="card3-details">
-                <h5 class="card-title">iPad Pro</h5>
+                <h5 class="card-title">iphone-14</h5>
                 <p class="card-text">
-                    The ultimate iPad experience with the most advanced technology.<br>
-                    From $799
+                  Front and back view of iPhone 14 in (PRODUCT)RED.<br>
+                  From $799.00**
                 </p>
               <a href="#" class="link1">Learn more</a>
 
@@ -723,12 +724,12 @@ ul{
           </div>
           <div class="col-md-4">
             <div class="card3">
-              <img src="./image/iphone pictures/PngItem_2836484.pn.png" class="card3-img-top1" alt="Card Image">
+              <img src="./image/iphone pictures/Apple iPhone 14 Pro - 512GB - Space Black (Unlocked) ⚡️NEXT DAY AIR.jpg" class="card3-img-top1" alt="Card Image">
               <div class="card3-details">
-                <h5 class="card-title">iPad Air</h5>
+                <h5 class="card-title">iphone-14</h5>
                 <p class="card-text">
-                    Serious performance in a thin and light<br>
-                    From $599</p>
+                  Front and back view of iPhone 14 Pro in space black. <br>
+                    From $999.00</p>
               <a href="#" class="link1">Learn more</a>
 
               </div>
@@ -736,13 +737,13 @@ ul{
           </div>
           <div class="col-md-4">
             <div class="card3">
-              <img src="./image/iphone pictures/PngItem_17575.png" class="card3-img-top1" alt="Card Image">
+              <img src="./image/iphone pictures/9a0d27ae-6b30-49a8-882e-09a53bc099d1.jpg" class="card3-img-top1" alt="Card Image">
               <div class="card3-details">
-                <h5 class="card-title">iPad
-                    10th generation</h5>
+                <h5 class="card-title">iphone-13
+                  </h5>
                 <p class="card-text">
-                    The all‑new colorful iPad for the things you do every day.<br>
-                    From $449</p>
+                  Back and side view of iPhone 13 in pink. Color - Pink.<br>
+                  From $699.00**</p>
               <a href="#" class="link1">Learn more</a>
 
               </div>

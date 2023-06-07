@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+<style>
+    /* --------------------------------nav bar css start-------------------------------------- */
+    *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+     font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif ;
+
+        }
+     
+       .social-links1 .fab{
+      margin-left: 40px;
+      color: #000;
+      height: 40px;
+      size: 40px;
+      margin-top: 10px;
+      width: 50px;
+      font-size: 40px;
+    }
+    .social-links1 .fab:hover{
+      color: aqua;
+
+    }
+      
+    .navbar{
+    background: linear-gradient(45deg,#3cb9fc,#b94def,#892be28e,#12001262);
+
+     z-index: +1;  
+     font-family:"SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif ;
+}
+
+        
+        .navbar-brand{
+            color: rgb(9, 161, 156);
+            margin-top: 20px;
+          font-weight: bold;  
+          font-size: 30px;
+
+        }
+        .nav-link{
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        .nav-link:hover{
+            color: rgb(90, 246, 246);
+        }
+        .nav-item{
+            margin-left: 80px;
+            margin-top: 20px;
+        }
+        .dropdown-menu{
+            background-color: rgba(0, 0, 0, 0.445);
+        }
+        .dropdown-item{
+            color: white;
+
+        }
+        .dropdown-item:hover{
+            background-color: rgb(38, 219, 232);
+        }
+        .d-flex{
+            margin-top: 20px;
+            margin-left: 150px;
+
+        }
+    
+      .social-links1{
+        height: 50px;
+        width: 80px;
+        color: #3ce1e1;
+      }
+    
+    .social-links1 .fab{
+      margin-left: 40px;
+      color: #000;
+      height: 40px;
+      size: 40px;
+      margin-top: 10px;
+      width: 50px;
+      font-size: 40px;
+    }
+    .social-links1 .fab:hover{
+      color: aqua;
+
+    }
+    .social-links2 .fa{
+      color: #000;
+      font-size: 30px;
+      margin-right: 10px;
+    }
+    .social-links2 .fa:hover{
+      color: aqua;
+    }
+    .social-links2 span{
+      color: #2a56db;
+      margin-right:100px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    /* ------------------------------------------------nav section end-------------------------- */
+    main{
+      background-color: #ffffff;
+      
+    }
+    .container{
+      width:100%;
+      height: 900px;
+      background-color: rgb(0, 0, 0);
+      display: flex;
+    border:1px solid white;
+    border-radius: 20px;
+
+      
+    }
+    main h2{
+      color: rgb(9, 9, 9);
+      font-weight: bold;
+      font-size: 30px;
+    margin-left:350px;
+    padding-top: 20px;
+    }
+    .img{
+      background-image: url(./image/pxfuel\ \(3\).jpg);
+      width: 100%;
+      height: 500px;
+      background-size: cover;
+      background-color: #000;
+      
+    }
+    h1 {
+     line-height: 30px;
+      margin-left:500px;
+     padding-top:60px;
+     color:rgb(243, 243, 243);
+     
+    }
+    .img h3{
+      margin-left: 300px;
+      padding-top: 90px;
+      color: rgb(255, 248, 248);
+      font-weight:bold;
+      /* font-size: 30px; */
+    }  
+    .figure-caption{
+      color: #fdfdfd;
+      margin-left:30px;
+      font-size: 20px;
+      font-weight: bold;
+      
+      
+    }
+   .figure-img2 {
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: #000;
+    
+   }
+   .figure-caption1{
+    margin-left:50px;
+    margin-top: 100px;
+    font-size: 20px;
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+   }
+   .figure{
+    margin-top:50px;
+    /* border:1px solid white; */
+    height: 800px;
+    background-color: #000;
+    
+    width: 100%;}
+   .figure-img{
+    margin-bottom:40px;
+    background-color: #000;
+   }
+   /* -----------------------------cards section------------------------------- */
+  
+      .container2{
+        width:100%;
+        height:500px;
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        padding-left: 22px;
+        justify-content: space-around;
+        justify-content: space-between;
+        margin-top: 50px;
+      }  
+        
+       .card{
+        flex-direction: column;
+        width: 100%;
+        height: 400px;
+        margin-top: 40px;
+       border: 1px solid gray;
+       background-color: beige;
+       }
+       .btn{
+        background-color: rgb(46, 237, 231);
+        color: #000;
+        border: 1px solid white;
+        margin-bottom: 5px;
+       }
+        .btn:hover{
+        background-color: rgb(151, 82, 216);
+       }
+       .form-control {
+        border: 2px solid rgb(0, 255, 255);
+       }
+       .card-img-top{
+        background-color: #000;
+        height: 250px;
+        width: 100%;
+       }
+       .clearfix span{
+        color: rgb(0, 0, 0);;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 50px;
+        margin-top: 30px;
+       }
+       .clearfix p{
+        color: rgb(0, 0, 0);
+        margin-left: 30px;
+        margin-top: 30px;
+       }
+       .clearfix{
+        background-color: #fdfdfd;
+        height: 650px;
+        border: 2px solid black;
+        border-radius: 10px;
+
+        
+       }
+       .col-md-6{
+        margin-top: 10px;
+        border-radius: 5px;
+        margin-left: 10px;
+       }
+     /*-------------------------------- phone compare portion here----------------------------- */
+    .container-fluid2{
+      display: flex;
+      height: 300px;
+      width: 100%;
+      background-color: #ffffff;
+      margin-top:80px;
+    }
+    
+    .rounded{
+      padding-left:95px;
+      justify-content: space-around;
+      justify-content: space-between;
+      background-color: white;
+    }
+    .col{
+      margin-top: 40px;
+      margin-left:30px;
+      background-color: white;
+    }
+    .rounded1{
+      margin-right:80px;
+      height: 40px;
+      margin-top:40px;
+    }
+    .rounded2{
+      height: 40px;
+      margin-top: 25px;
+      margin-right: 80px;
+    }
+      .text{
+        margin-top: 120px;
+      }
+      /* phone compare portion end */
+     .col-8{
+      margin-left: 30px;
+      margin-top: 70px;
+
+     }
+     .col-8 p{
+      margin-left:330px;
+      color: #000;
+     }
+     .col-8 hr{
+      margin-left: 330px;
+      color: rgb(0, 0, 0);
+     }
+     .col-8 h4{
+      font-weight: bold;
+      color: #000;
+     }
+      /* --------------------------------------footer css------------------------------------------------ */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.containerf0{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #52ded2;
+	height: 2px;
+	box-sizing: border-box;
+	width: 60px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+</style>
+
+<body>
+  <header>
+    <!-- =-----------------------------nav bar start------------------------ -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+         
+         <div class="social-links1">
+          <a href="#"><i class="fab fa-apple"></i></a></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+          
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  iphones
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">iPhone-14</a></li>
+                  <li><a class="dropdown-item" href="#">iphone-13</a></li>
+                  <li><a class="dropdown-item" href="#">iphone-SE</a></li>
+                  <li><a class="dropdown-item" href="#">iphone-12</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="social-links2">
+              <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
+              <span>login</span>
+
+          </div>
+        </div>
+      </nav>
+     <div class="img">
+      
+      <h1>iPhone-14</h1>
+      <h3>Overview of the iPhone 14's features and design
+           <br>
+
+        Unleash the power of the Pro models with additional<br>
+                         features
+      </h3>
+     </div>
+      <!-- ---------------------------------nav end here----------------------------------------- -->
+  </header>
+  <main>
+    <h2>iPhone 14 and iPhone 14 Plus</h2>
+
+    <div class="container">
+    
+    <figure class="figure">
+      
+
+      <img src="./image/iphone pictures/Cell Phones and Devices - Buy iPhone, Samsung, Google Pixel (1).png" class="figure-img img-fluid roundedf" alt="...">
+      <figcaption class="figure-caption">The advanced quad-pixel sensor <br>
+        on the Main camera makes the <br>
+        most of 48 megapixels by adapting to<br>
+         what you’re shooting.</figcaption>
+      </figure>
+
+      <figure class="figure">
+      
+
+        <img src="./image/iphone pictures/camera_deep_purple__fviv8fv1dyqa_large.jpg" class="figure-img2 img-fluid roundedf" alt="...">
+        <figcaption class="figure-caption1">High resolution and color<br>
+          accuracy make everything<br>
+          look sharp and true to life.<br>
+          iPhone 14 Plus has 21% more screen, making <br>
+          it supersized but surprisingly lightweight. <br>
+          
+          </figcaption>
+        </figure>
+    
+  </div>
+    <!-- ----------------------------------------cards section-------------------------------- -->
+     <!-- ----------iphone info------------------------------- -->
+  
+     <div class="container2">
+    <div class="card" style="width: 18rem;">
+        <img src="./image/iphone pictures/PRRO2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">iphone-14</h5>
+          <p class="card-text">From $799**</p>
+          <a href="#" class="btn btn-primary">Learn more></a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./image/iphone pictures/darkbomber.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">iphone-13</h5>
+          <p class="card-text">From $599**</p>
+          <a href="#" class="btn btn-primary">Learn more></a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./image/iphone pictures/iPhone-14-Transparent-Image.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">iphone-SE</h5>
+          <p class="card-text">From $429</p>
+          <a href="#" class="btn btn-primary">Learn more></a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./image/iphone pictures/PRO3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">iphone-12</h5>
+          <p class="card-text">From $599</p>
+          <a href="#" class="btn btn-primary">Learn more></a>
+        </div>
+      </div>
+      
+     </div>
+     <!------------------------------------------- card of iphone end------------------- -->
+     <div class="container3">
+      <div class="clearfix">
+        <img src="./image/iphone pictures/ios 16 lock + home screen ੈ✩‧₊˚.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+      
+        <span>Display</span>
+        <p>The iPhone 14 display has rounded corners that follow a beautiful curved design,
+           and these corners are within a standard rectangle. When measured as a standard
+           rectangular shape, the screen is 6.06 inches diagonally (actual viewable area is less).</p>
+           <br>
+
+           <p>The iPhone 14 Plus display has rounded corners that follow a beautiful curved design,
+             and these corners are within a standard rectangle. When measured as a standard rectangular shape, 
+            the screen is 6.68 inches diagonally (actual viewable area is less).</p>
+        <span>Both models:</span>
+        <br>
+        <p>HDR display<br>
+          True Tone<br>
+          Wide color (P3)<br>
+          Haptic Touch<br>
+          2,000,000:1 contrast ratio (typical)<br>
+          800 nits max brightness (typical); 1200 nits peak brightness (HDR)<br>
+          Fingerprint-resistant oleophobic coating<br>
+          Support for display of multiple languages and characters simultaneously</p>
+      </div>
+     </div>
+    
+<!------------------------ my iphone12 sec end---------------------------------- -->
+  </main>
+  <footer>
+      <!---------------------------compare items here --------------------- -->
+      <div class="container-fluid2">
+        <img src="./image/compare_iphone_13_pro__emfqqeaysca6_large_2x.jpg" class="rounded float-start" alt="...">
+               <img src="./image/compare_iphone_13_.jpg" class="rounded float-end" alt="...">
+              <img src="./image/compare_iphone_12__fc.jpg" class="rounded float-end" alt="...">
+              <img src="./image/compare_iphone_se__d73.jpg" class="rounded float-end" alt="...">
+          <!-- -------------------------------my iphone14 start------------------------------------- -->
+         </div>
+         <div class="container1 text-center">
+          <div class="row align-items-start">
+            <div class="col">
+              <h4>iphone14</h4>
+              <p>A total powerhouse.</p>
+              <br>
+
+
+        <a href="#" class="link2">Learn more></a>
+        <hr>
+        <h5>6.7″ or 6.1″</h5>
+        <p>Super Retina XDR display7
+          
+          </p>
+        <img src="./image/icon_13_pro_camera__gtlhu06jtw2u_large_2x.png" class="rounded2 float-end" alt="...">
+      <div class="text">
+        <p>Advanced dual-camera system</p>
+         12MP Main Ultra Wide Photonic  
+          
+        <img src="./image/icon_a15__d4hn2f34szo2_large_2x (1).png" class="rounded2 float-end" alt="...">
+        <div class="text">
+          <p>A15 Bionic chip
+
+            5‑core GPU</p>
+        </div>
+      <img src="./image/icon_battery__efop2x3cymeu_large_2x.png" class="rounded2 float-end" alt="...">
+      <div class="text">
+       <p>
+        Up to 26 hours
+        video playback2</p>
+      </div>
+      <img src="./image/icon_face_id__e402t6pk19aq_large_2x.png" class="rounded2 float-end" alt="...">
+      <div class="text">
+        <p>Face ID</p>
+       </div>
+       <hr>
+      
+      </div>
+          <!-- -------------------------------my iphone14 end------------------------------------- -->
+
+              <!--=------------------- my iphone13 sec start----------------------------------------------- -->
+
+
+            </div>
+            <div class="col">
+              <h4>iphone13</h4>
+              <p>A total powerhouse.</p>
+
+
+              <br>
+        <a href="#" class="link2">Learn more></a>
+        <hr>
+        <h5>6.7″ or 6.1″</h5>
+        <p>All-screen OLED display5</p>
+        <img src="./image/icon_13_camera__e64jy1q2v5ci_large_2x.png" class="rounded1 float-end" alt="...">
+      <div class="text">
+        <p>  Advanced dual‑camera system</p>
+      <h6>Wide, Ultra Wide</h6>
+      <img src="./image/icon_a15__d4hn2f34szo2_large_2x (1).png" class="rounded1 float-end" alt="...">
+      <div class="text">
+        <p>A15 Bionic chip
+
+          4‑core GPU</p>
+      </div>
+      <img src="./image/icon_battery__efop2x3cymeu_large_2x.png" class="rounded1 float-end" alt="...">
+      <div class="text">
+        <p>Up to 19 hours video
+          playback1</p>
+       </div>
+      <img src="./image/icon_face_id__e402t6pk19aq_large_2x.png" class="rounded1 float-end" alt="...">
+      <div class="text">
+        <p>Face ID</p>
+       </div>
+       <hr>
+      </div>
+  <!--=------------------- my iphone13 sec end----------------------------------------------- -->
+      
+<!--=====------------------ my iphone se sec start ------------------------------------------->
+            
+            </div>
+            <div class="col">
+              <h4>iphone-SE</h4>
+              <p>Serious power.
+                Serious value.</p>
+
+
+                <br>
+        <a href="#" class="link2">Learn more></a>
+        <hr>
+        <h5>4.7″</h5>
+        <p>LCD display</p>
+        <img src="./image/icon_se_camera__dfqtv9o06x26_large_2x.png" class="rounded1 float-end" alt="...">
+        <div class="text">
+          <p>Single-camera system</p>
+        <h6>Wide</h6>
+        <img src="./image/icon_a15__d4hn2f34szo2_large_2x (1).png" class="rounded1 float-end" alt="...">
+        
+        <div class="text">
+          <p>A15 Bionic chip
+
+            4‑core GPU</p>
+        </div>
+        <img src="./image/icon_battery__efop2x3cymeu_large_2x.png" class="rounded1 float-end" alt="...">
+        <div class="text">
+          <p>Up to 15 hours video
+            playback1</p>
+         </div>
+        <img src="./image/icon_touch_id__cxo2favttosy_large_2x.png" class="rounded1 float-end" alt="...">
+        <div class="text">
+          <p>Touch ID</p>
+         </div>
+        <hr>
+            </div>
+<!--=====------------------ my ihone se sec end ------------------------------------------->
+<!------------------------ my iphone12 sec start---------------------------------- -->
+            </div>
+            <div class="col">
+              <h4>iphone12</h4>
+              <p>As amazing as ever.</p>
+
+              <br>
+        <a href="#" class="link2">Learn more></a>
+        <hr>
+        <h5>6.1” or 5.4”</h5>
+        <p>All-screen OLED display5</p>
+        
+        <img src="./image/icon_12_camera__50ell9gu21uq_large_2x.png" class="rounded1 float-end" alt="...">
+      <div class="text">
+      <p>Single-camera system</p>
+      <h6>Wide</h6>
+      <img src="./image/icon_a14__ff4ridqkrriq_large_2x.png" class="rounded1 float-end" alt="...">
+      <div class="text">
+        <p>A14 Bionic chip</p>
+      </div>
+      <img src="./image/icon_battery__efop2x3cymeu_large_2x.png" class="rounded1 float-end" alt="...">
+      <div class="text">
+       <p>Up to 17 hours video
+        playback1</p>
+       </div>
+      <img src="./image/icon_face_id__e402t6pk19aq_large_2x.png" class="rounded1 float-end" alt="...">
+      
+      <div class="text">
+     
+       <p>Face ID</p>
+       <hr>
+    </div>
+            </div>
+          </div>
+        </div>
+
+            </div>
+          </div>
+     <!------------------------- details place here-------------------------- -->
+     
+      <div class="col-8">
+        <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+          <h4 id="list-item-1">Green manufacturing:</h4>
+          <hr>
+          <p>Apple’s Zero Waste Program helps suppliers eliminate waste sent to landfill
+            All final assembly supplier sites are transitioning to 100% renewable energy for Apple production</p>
+            <hr>
+          <h4 id="list-item-2">Responsible packaging:</h4>
+          <hr>
+          <p>100% of virgin wood fiber comes from responsibly managed forests
+            90% or more fiber-based packaging</p>
+            <hr>
+          <h4 id="list-item-3">Apple Trade In:</h4>
+          <hr>
+          <p>Trade in your eligible device for credit toward your next purchase, or get an Apple Gift Card you can use 
+            anytime.25 If your device isn’t eligible for credit, we’ll recycle it for free.</p>
+            <hr>
+          <h4 id="list-item-4">Apple and the Environment:</h4>
+          <hr>
+          <p>We’re committed to making our products without taking from the earth, and to become carbon neutral across our entire business, including products, by 2030.</p>
+          <hr>
+        </div>
+      </div>
+    </div>
+     <!-- ----------------------------footer------------------------------------------- -->
+     <footer class="footer">
+      <div class="containerfo">
+        <div class="row">
+          <div class="footer-col">
+            <h4>company</h4>
+            <ul>
+              <li><a href="#">about us</a></li>
+              <li><a href="#">our services</a></li>
+              <li><a href="#">privacy policy</a></li>
+              <li><a href="#">affiliate program</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">shipping</a></li>
+              <li><a href="#">returns</a></li>
+              <li><a href="#">details</a></li>
+              <li><a href="#">login</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>online shop</h4>
+            <ul>
+              <li><a href="#">iphone-13</a></li>
+              <li><a href="#">iphone-14</a></li>
+              <li><a href="#">iphone-SE</a></li>
+              <li><a href="#">iphone12</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+             
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
