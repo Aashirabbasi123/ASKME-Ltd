@@ -47,11 +47,18 @@ background: linear-gradient(45deg,#15251d98,#30833b84,#0a0a0a8f);
 background-color: #151313ba !important;
 }
 @media (max-width: 991.98px) {
+   *{
+    padding: 0%;
+    margin: 0%;
+   }
     .navbar-nav {
       flex-direction: column;
     }
     .nav-link {
       padding: 0.5rem 1rem;
+      /* background-color: #24262b; */
+      width: 100%;
+      text-align: center;
     }
     .dropdown-menu {
       position: static;
@@ -100,6 +107,7 @@ background-color: #151313ba !important;
 .footer{
 	background-color: #24262b;
     padding: 70px 0;
+    margin-top: 20px;
 }
 .footer-col{
    width: 25%;
